@@ -1,0 +1,49 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Microsoft YaHei'
+}
+body{
+	background-color: rgb(199,43,30);
+}
+#top img{
+	width: 100%;
+}
+/* -------------------获奖详情--------------------------- */
+#middle{
+	margin-top: 1vw
+}
+#middle>div{
+	width: 90vw;height: 31vw;background-color: white;margin: 2vw auto;border-radius: 1.5vw;overflow: hidden;position: relative;
+}
+#middle>div>img{
+	display:block;width: 12vw;margin:4vw;float: left;
+}
+.detail{
+	float: left;height: 100%;width: 72%;margin-top: 2vw;font-size: 3vw;
+}
+.d-title{
+	display: inline;font-size: 4vw;font-weight: 0;line-height: 10vw
+}
+.d-value{
+	float: right;font-size: 3vw;line-height: 9vw;color: rgb(255,70,20);
+}
+.d-value>span{
+	font-size: 5vw
+}
+.detail>hr{
+	height:2vw;border:none;border-top:2px dotted #185598;
+}
+.detail>p{
+	color: #777;line-height: 4vw
+}
+.use-now{
+	width: 21vw;height: 8vw;background-color: rgb(255,104,21);color: white;line-height: 8vw;text-align: center;border-radius: 1.5vw;position: absolute;top: 19vw;left:65vw;cursor: pointer;
+}
+.overdue{
+	color: rgb(255,70,20);line-height: 6vw
+}	
+.use-now{
+	width: 21vw;height: 8vw;background-color: rgb(255,104,21);color: white;line-height: 8vw;text-align: center;border-radius: 1.5vw;position: absolute;top: 19vw;left:65vw;cursor: pointer;
+}
+/* ----------------------------------------------------- */
