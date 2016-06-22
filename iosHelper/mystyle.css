@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	
+	font-family: 'Microsoft YaHei';
+}
+.trans{
+	transition: all .5s;
+	-moz-transition: all .5s; 
+	-webkit-transition: all .5s; 
+	-o-transition: all .5s; 
+}
+.rotate
+{
+transform:rotate(-180deg);
+-ms-transform:rotate(-180deg);
+-moz-transform:rotate(-180deg);
+-webkit-transform:rotate(-180deg);
+-o-transform:rotate(-180deg);
+}
+/*---------------------------------- 顶部分类 ------------------------------------------*/
+#classify{
+	width: 100%;height:79vw;border-bottom: 1px solid rgb(220,220,220)
+}
+#classify>div{
+	width: 33.3%;height: 33.3%;background-color: #fff;float: left;text-align: center;font-size: 4vw;
+}
+#classify>div>div{
+	width: 10vw;height: 10vw;background-color: rgb(238,238,238);margin:5.5vw auto;margin-bottom: 2vw
+}
+/*----------------------------------- 问题列表 -----------------------------------------*/
+#question{
+	background-color: rgb(233,236,241);padding: 3vw 0;
+}
+#question>div{
+	margin:0 auto;width: 94%;background-color: white;border-radius: 1vw;border:1px solid rgb(220,220,220);overflow: hidden;border-top: 0;
+}
+#question ul{
+	list-style: none;font-size: 3.5vw;
+}
+#question li{
+	line-height: 14vw;position: relative;border-top:1px solid rgb(220,220,220);
+}
+#question li>div:first-child{
+	padding: 0 5vw;
+}
+.answer{
+	padding:0 7vw 0 5vw;overflow: hidden;line-height: 5.5vw;background-color: rgb(247,248,252);color: rgb(106,107,109);height: 0;
+}
+#question li>span{
+	display: block;width: 85%;overflow: hidden;text-overflow: ellipsis;
+}
+.arr{
+	width: 4vw;position: absolute;top: 6vw;left: 80vw
+}
+/*----------------------------------- 反馈 -----------------------------------------*/
+#feedback{
+	height: 23vw;overflow: hidden;
+}
+#feedback>button{
+	background-color: rgb(255,104,21);color: white;border: 0;border-radius: 1vw;display: block;width: 91%;height: 14vw;margin: 5vw auto;font-size: 5vw;font-family: 'Microsoft YaHei';
+}
