@@ -1,0 +1,66 @@
+*{
+	margin: 0;padding: 0;font-family: 'Microsoft YaHei';font-size: 4.4vw;
+}
+ul{
+	list-style: none;background-color: white;
+}
+body{
+	background-color:rgb(233,236,241)
+}
+/* -------------------------------切换标签---------------------------- */
+#tap{
+
+}
+#tap>li{
+	display: inline-block;width: 23%;height: 11.8vw;line-height: 11.8vw;text-align: center;margin: 0 5vw;color: rgb(112,112,112);font-size: 4.8vw
+}
+/* -------------------------------我的位置---------------------------- */
+#tap>li.active{
+	border-bottom: 1vw solid rgb(46,189,79);color: rgb(46,189,79);
+}
+#local{
+	border-top: 1px solid rgb(225,225,225);border-bottom: 1px solid rgb(225,225,225)
+}
+#local>img{
+	position: absolute;top: 23vw;left: 86vw;width: 10vw
+}
+#local li{
+	display: block;height: 15.5vw;line-height: 15.5vw;
+}
+#local>ul>li:last-child{
+	height: 23.4vw;text-align: center;
+}
+#local li>img{
+	margin:0 2vw 0 6vw;vertical-align: middle;width: 4.7vw;
+}
+#local li input{
+	font-size: 5vw;display: inline-block;vertical-align: middle;border: none;
+}
+.line-1{
+	display: inline-block;vertical-align: middle;width: 65.5vw;height: 16vw;border-top: 1px solid rgb(219,219,219)
+}
+.line-2{
+	width: 91vw;border-top:1px solid #ddd ;height: 14vw;margin:0 auto;padding:4.7vw 0
+}
+.line-2>button{
+	border: 0;width: 91vw;height: 14vw;font-size: 5.5vw;color: white;background-color:rgb(255,133,0);border-radius: 1.5vw
+}
+/* -------------------------------历史记录---------------------------- */
+#history>div:first-child{
+	height: 10vw;font-size: 3.5vw;line-height: 11vw;padding-left: 4.2vw;
+}
+#history li{
+	height: 14vw;line-height: 14vw;
+}
+#history li>img{
+	width: 5vw;margin: 4.7vw;vertical-align:middle
+}
+#history li>span{
+	display: inline-block;vertical-align: middle;width: 85.6vw;border-bottom: 1px solid #ddd;
+}
+#history>div:last-child{
+	height: 14vw;text-align: center;line-height: 14vw;border-bottom: 1px solid #ddd;background-color: white;font-size: 4.2vw;color: rgb(85,85,85);
+}
+#history>div:last-child>img{
+	vertical-align: middle;width: 4.5vw
+}

@@ -1,0 +1,91 @@
+*{
+	margin:0;padding: 0;font-family: 'Microsoft YaHei';font-size: 4vw;
+}
+.v42{
+	font-size: 4.2vw;
+}
+.clear{
+	clear: both;
+}
+/*------------------------ 地点定位 -------------------*/
+#local{
+	line-height: 20vw;
+}
+#local img{
+	float: left;width: 12vw;margin:4vw 5vw
+}
+#local>div:nth-child(2){
+	float: left;width:53%;height:12vw;border-right: 1px solid #ddd;margin-top: 4vw;line-height: 12vw;
+}
+#local>div:nth-child(2)>span{
+	color: rgb(148,148,148);
+}
+#local>div:last-child{
+	text-align: center;color: rgb(96,199,119);
+}
+/* -------------------------公交路线 --------------------*/
+#way{
+	border: 1px solid #ddd;text-align: center;
+}
+#way>span:first-child{
+	display: block;text-align: left;color: rgb(148,148,148);line-height: 10vw;margin-left: 4vw
+}
+#way ul{
+	list-style: none;padding: 0 1.5vw;
+}
+#way li{
+	display: block;float: left;width: 25%;height: 10vw;text-align: center;line-height: 10vw;margin:1.5vw 0;
+}
+#way li>span{
+	width: 21vw;display: inline-block;border:1px solid #ddd;border-radius: 1vw;
+}
+#way>span:last-child{
+	display: block;color: rgb(148,148,148);line-height: 13vw;
+}
+#way>span>img{
+	width: 4vw;
+}
+/* ------------------------- 周边推荐 --------------------*/
+#recom>div{
+	background-color: white;border: 1px solid #ddd;border-bottom: 0;
+}
+#recom>div:last-child{
+	border-bottom:1px solid #ddd;
+}
+#recom>div:first-child{
+	height: 8vw;line-height: 8vw;color: rgb(148,148,148);font-size: 3.5vw;padding-left: 4.5vw;background-color:rgb(233,236,241);border:0;
+}
+.recom-iteam{
+	position: relative;
+}
+.recom-iteam>div:first-child{
+	position: absolute;width: 8.2vw;height: 4.3vw;font-size: 3.2vw;background-color: rgba(0,0,0,.5);color: white;text-align: center;line-height: 4.3vw;top: 4.3vw;left: 4vw;
+}
+.recom-iteam>img{
+	width: 28vw;height: 25vw;margin: 2.7vw 2.7vw;margin-right: 0;
+}
+.iteam-detail{
+	float: right;width: 61vw;padding: 2vw
+}
+.iteam-detail>span:nth-child(1){
+	font-size: 4.7vw
+}
+.iteam-detail>span:nth-child(3){
+	display: inline-block;width: 14.5vw;height: 4.4vw;border: 1px solid rgb(251,101,81);color: rgb(251,101,81);font-size: 2.4vw;text-align: center;margin:4vw 0;line-height: 4.4vw;
+}
+.iteam-detail>span:nth-child(6){
+	display: inline-block;overflow: hidden;color: rgb(148,148,148);width: 43vw;white-space: nowrap;;text-overflow: ellipsis;
+}
+.iteam-detail>div:last-child{
+	float: right;color: rgb(148,148,148);
+}
+.value{
+	display: inline-block;float: right;margin-top: 3vw;color: rgb(251,101,81);
+}
+.value>span:first-child{
+	font-size: 5.5vw;
+}
+.value>span:last-child{
+	color:rgb(148,148,148);font-size: 3.5vw;
+}
+.
